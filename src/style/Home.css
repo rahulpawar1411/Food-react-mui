@@ -1,0 +1,63 @@
+.home{
+    height: 90vh;
+    display : flex;
+    justify-content:start;
+    align-items:center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headContainer{
+    margin-left: 50px;
+
+}
+.headContainer h1{
+    line-height: 0.8; 
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.headContainer p{
+    margin-left: 6px;
+    font-size: 1.2vw;
+}
+.headContainer a button {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  .headContainer a button:hover{
+    background-color: black;
+  }
+/* .................. */
+
+@media only screen and (max-width:600px){
+    .home{ 
+        
+        justify-content:start;
+        align-items:center;
+    }
+    .headContainer{
+        width: 100%;
+        margin-left: 0;
+        background-color: #ffffff4b;
+        padding: 10px;
+    }
+    .headContainer h1{
+        font-size: 7vw;
+        line-height: 1; 
+    }
+    .headContainer p{
+        font-size: 4vw;
+        line-height: 1; 
+        margin-left: 0;
+    }
+    .headContainer a button{
+        font-size: 3vw;
+    }
+}
